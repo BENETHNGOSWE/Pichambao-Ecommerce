@@ -1,0 +1,13 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class Latestproduct extends Model
+{
+    use HasFactory;
+
+    protected $fillable = ['latestname', 'latestimage', 'latestprice'];
+}
